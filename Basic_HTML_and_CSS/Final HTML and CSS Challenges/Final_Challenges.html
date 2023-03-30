@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+                        <!-- ** FINAL CHALLENGES TICK LIST ** -->
+<!-- 1. CENTER THE IMAGE | 2. APPLY A CSS FILTER TO IMAGE | 3. GIVE IMAGE ROUNDED EDGES -->
+<!-- 1. USING HTML, CREATE A FOOTER | 2. USE CSS TO ENSURE FOOTER IS CENTERED AND IN BOLD -->
+<!-- 1. CREATE A TABLE WITH HTML | 2. USE CSS TO CREATE A BORDER, ADD CELL PADDING, AND BG COLOR IN TOP ROW -->
+<!-- 1. PLACE TEXT OVER THE IMAGE -->
+<!-- 1. CREATE A NAVBAR WITH [HOME] [ABOUT] [CONTACT] | 2. USE CSS TO SYLE THE NAVBAR i.e. BG COLOR, HOVER EFFECT, FONT COLOR-->
+<!-- 1. USE HTML TO MAKE A 2 COLUMN LAYOUT 2. USE CSS TO STYLE COL i.e. SET HEIGHT AND WIDTH 3. ADD CSS FONT COLOR TO TEXT IN COLUMNS -->
+<!-- 1. MAKE A <p> TAG THAT HAS A HOVER EFFECT -->
+<!-- 1. CREATE AN IMAGE OVERLAY FADE -->
+<!-- 1. DOWNLOAD AND SAVE RANDO VID | 2. EMBED A VIDEO THAT AUTOPLAYS ON MUTE ON A LOOP 3. PUT A TEXT OVERLAY ON IT -->
+<!-- 1. ADD IN A MEDIA QUERY SECTION  ON SEPERATE WEBPAGE-->
+<html>
+    <head>
+        <title>Final Challenges</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/Final_Challenges.css">
+        <meta name="viewport" content="width=device-width">
+    </head>
+<body>
+    <ul class=".active-page">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li style="float:right"><a class="active-page" href="#ticks">TICK LIST</a></li>
+    </ul>
+    <!-- CUTE LIL IMAGE WITH SOME TEXT HERE -->
+    <h1>Night-time ice climbing in Eleven Mile Canyon</h1>
+        <div class="container">
+            <img src="./images/img_1.JPG" class="image" alt="ice-climbing in 11mile canyon">
+            <div class="overlay">
+                <div class="text">ICE CLIMBING IS SUPER FUN!</div>
+            </div>
+        </div>
+        <div class="container">
+            <video autoplay loop muted>
+                <source src="./images/ice_climbing1.mp4" type="video/mp4">
+            </video>
+            <div id="overlay-2">
+                <div class="text">INSANITY!</div>
+            </div>
+        </div>
+
+    <!-- CHEEKY TABLE GOING IN HERE -->
+    <h1>A few places I've climbed:</h1>
+    <table>
+        <tr>
+            <th>Craig:</th>
+            <th>Favorite Climb:</th>
+            <th>Would I go back?</th>
+        </tr>
+        <tr>
+            <td>Shelf-road, CO</td>
+            <td>Freeform || 12a</td>
+            <td>Yes, but it isn't my perfered style.</td>
+        </tr>
+        <tr>
+            <td>Ten Sleep, WY</td>
+            <td>Soul Bossa Nova || 12b</td>
+            <td>Yes, it is where I go to worship.</td>
+        </tr>
+        <tr>
+            <td>Penitente, CO</td>
+            <td>Captain America || 10b</td>
+            <td>No. I hated it so much!</td>
+        </tr>
+        <tr>
+            <td>Tonsai Bay, Thailand</td>
+            <td>&nbsp;Mai Mee Fahn - Have No Teeth Have No Girlfriend || 7a+ &nbsp;</td>
+            <td>Yes. Would love to live there again!</td>
+        </tr>
+    </table><br>
+
+    <!-- COLUMNS GO HERE (not using col/col-groups - only css to create table/boxes) -->
+    <div class="row">
+        <div class="column"><h2>Hi, I'm column 1!</h2>
+        <p>A Simple Hover Effect!</p></div>
+        <div class="column-2"><h2>And I'm column 2!</h2>
+        <p>The Same Hover Effect But Overhere!</p></div>
+    </div><br>
+    <!-- END TABLE -->
+
+    <br><div><footer> Bruises-R-Us Inc.&copy; &nbsp; | &nbsp; 2023 </footer></div>
+</body>
+
+</html>
+

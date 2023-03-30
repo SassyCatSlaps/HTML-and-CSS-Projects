@@ -1,0 +1,180 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(209, 219, 238);
+}
+
+/* MAKIN' THE NAVBAR SEXIER */
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    background-color: rgb(5, 61, 68);
+}
+li {
+    float: left;
+    display: inline;
+    border-right: 2px solid rgb(37, 87, 131);
+}
+/* keeps the border off my last element in 'li' */
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: rgb(197, 245, 229);
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+/*does what it says lol*/
+li a:hover {
+    background-color: rgb(4, 43, 48);
+}
+/* i just set this to work on the last anchor for looks */
+.active-page {
+    background-color: rgb(37, 87, 131);
+}
+/* END NAVBAR */
+
+/* IMAGE EDITING SECTION */
+img {
+    border-radius: 1em;
+    filter: contrast(200%)
+}
+/* overlay section */
+.container {
+    position: relative;
+    width: 100%; /* HAS to be 100% to be centered */
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: rgba(233, 25, 233, 0.582);
+    border-radius: 1em;
+}
+
+/* new overlay for video */
+
+.overlay-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: 1em;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: rgb(144, 202, 241);
+    font-size: 70px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Jazz LET, fantasy;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    text-shadow: 3px 2px 6px rgb(1, 43, 56);
+}
+/* END IMAGE SECTION */
+
+/* TABLE STYLINGS */
+
+table {
+    border: 2px solid black;
+    text-align: center;
+    width: 100%;
+}
+
+td:hover {
+    background-color: rgba(243, 44, 167, 0.822);
+    color: black;
+}
+
+tr, th {
+    background-color: rgb(106, 138, 168);
+    color: rgb(2, 19, 12);
+    padding: 15px;
+}
+
+th {
+    font-size: 25px;
+    font-family: 'Arial Narrow Bold', sans-serif
+}
+
+tr, td {
+    background-color: rgba(66, 147, 201, 0.514);
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+}
+/* END TABLE */
+
+/* COLUMN STYLING */
+
+.column {
+    float: center;
+    flex: 50%;
+    padding: 20px;
+    height: 80px;
+    background-color: rgb(117, 184, 201);
+    color: rgb(12, 82, 92);
+}
+
+.column-2 {
+    float: center;
+    flex: 50%;
+    padding: 20px;
+    height: 80px;
+    background-color: rgb(95, 156, 172);
+    color: aliceblue;
+}
+
+.row {
+    display: flex;
+}
+/* END COLUMN STYLING */
+
+p:hover {
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: dashed;
+}
+
+footer {
+    position: relative;
+    display: block;
+    bottom: 0;
+    text-align: center;
+    font-weight: bold;
+}
