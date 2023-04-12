@@ -2,128 +2,124 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- ONE-PAGE WEBSITE ASSIGNMENT -->
 		<title> Devil Inc. </title>
 		<!-- ADDING FONT-FAMILY AND FONT-SIZE WITH CSS -->
 		<link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
-		<link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+		<script src="JSS/one_page_website.js" defer></script>
 	</head>
 	<body>
 	
 		<!-- NAV aka BOOKMARKS ** taking out the "id=" and replacing with <li> tag -->
 		<div>
-			<nav>
-				<a href="#home"><li>HOME</li></a>
-				<a href="#gallery"><li>GALLERY</li></a>
-				<a href="#contract"><li>CONTRACT CONTACT</li></a>
-			</nav><br />
+			<ul>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#gallery">GALLERY</a></li>
+				<li><a href="#contract">CONTRACT</a></li>
+			</ul><br>
 		</div>
 		<!-- END NAV -->
 		
 		<!-- HOME -->
-		<div id="home">
-			<div class="container">
-				<div class="text-center">
-					<span class="head-main"><h4>SIGN YOUR SOUL AWAY TODAY WITH OUR QUICK AND EASY SERVICE!</h4>
-					<p>Are you looking for a change? That ol' soul got you down? Don't know what to do with the dead weight? We've got you covered here at Devil Inc.! </p></span>
-				</div>
-			</div>
-		</div>
+
+		<!-- scrapped | will redo? -->
+
 		<!-- END HOME -->
 		
-		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
-				<h3>Gallery</h3>
+		<!-- NEW GALLERY!!! MAKING A LIGHTBOX! -->
+		<h2 id="gallery" style="text-align:center">GALLERY</h2>
+		<!-- IMGS USED TO 'OPEN' LIGHTBOX -->
+		<div class="row">
+			<div class="column">
+				<img src="Images/Thumb/img_1_sm.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt="make a deal">
 			</div>
-				
-					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_1.png" alt="IMAGE CANNOT BE FOUND">
-							<div>
-								<h5>Click Me!</h5>
-								<p>WOW! THIS COULD BE YOU! NEAT!</p>
-							</div>
-						</div>
-					</div>	
-					<!-- END PHOTO-CONTAINER 1 -->
-					
-					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_2.png" alt="IMAGE CANNOT BE FOUND">
-							<div>
-								<h5>Click Me!</h5>
-								<p>WOW! THIS COULD BE YOU! NEAT!</p>
-							</div>
-						</div>
-					</div>	
-					<!-- END PHOTO-CONTAINER 2 -->
-					
-					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_3.png" alt="IMAGE CANNOT BE FOUND">
-							<div>
-								<h5>Click Me!</h5>
-								<p>WOW! THIS COULD BE YOU! NEAT!</p>
-							</div>
-						</div>
-					</div>	
-					<!-- END PHOTO-CONTAINER 3 -->
-					
-					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_4.png" alt="IMAGE CANNOT BE FOUND">
-							<div>
-								<h5>Click Me!</h5>
-								<p>WOW! THIS COULD BE YOU! NEAT!</p>
-							</div>
-						</div>
-					</div>	
-					<!-- END PHOTO-CONTAINER 4 -->
-					
-					<!-- PHOTO-CONTAINER 5 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_5.png" alt="IMAGE CANNOT BE FOUND">
-							<div>
-								<h5>Click Me!</h5>
-								<p>WOW! THIS COULD BE YOU! NEAT!</p>
-							</div>
-						</div>
-					</div>	
-					<!-- END PHOTO-CONTAINER 5 -->
-					
-					<!-- PHOTO-CONTAINER 6 -->
-					<div>
-						<div>
-							<img src="./Images/Thumb/thumbnail_6.png" alt="IMAGE CANNOT BE FOUND">
-							<div>
-								<h5>Click Me!</h5>
-								<p>WOW! THIS COULD BE YOU! NEAT!</p>
-							</div>
-						</div>
-					</div>	
-					<!-- END PHOTO-CONTAINER 6 -->
-		</section><br>			
-		<!-- END GALLERY -->
+			<div class="column">
+				<img src="Images/Thumb/img_2_sm.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" alt="make a deal">
+			</div>
+			<div class="column">
+				<img src="Images/Thumb/img_3_sm.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" alt="make a deal">
+			</div>
+			<div class="column">
+				<img src="Images/Thumb/img_4_sm.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="make a deal">
+			</div>
+		</div>
+		<!-- END 'OPEN' IMAGS -->
+
+		<!-- LIGHTBOX AKA USING A MODAL -->
+		<div id="vikModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				<!-- SLIDES HERE -->
+				<div class="vikSlides">
+					<div class="numbertext">1 / 4</div>
+					<img src="Images/img_1.png" style="width: 100%;" alt="do a deal">
+				</div>
+
+				<div class="vikSlides">
+					<div class="numbertext">2 / 4</div>
+					<img src="Images/img_2.png" style="width: 100%;" alt="do a deal">
+				</div>
+
+				<div class="vikSlides">
+					<div class="numbertext">3 / 4</div>
+					<img src="Images/img_3.png" style="width: 100%;" alt="do a deal">
+				</div>
+
+				<div class="vikSlides">
+					<div class="numbertext">4 / 4</div>
+					<img src="Images/img_4.png" style="width: 100%;" alt="do a deal">
+				</div>
+
+				<!-- CONTROLS TO FLIP THRU IMGS -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<!-- IMG OVERLAY TEXT -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<!-- THUMB IMGS CONTROLS -->
+				<div class="column">
+					<img class="controlSml cursor" src="Images/Thumb/img_1_sm.png"  style="width:100%" onclick="currentSlide(1)" alt="here be great deals">
+				</div>
+
+				<div class="column">
+					<img class="controlSml cursor" src="Images/Thumb/img_2_sm.png"  style="width:100%" onclick="currentSlide(2)" alt="more great deals">
+				</div>
+
+				<div class="column">
+					<img class="controlSml cursor" src="Images/Thumb/img_3_sm.png" style="width:100%" onclick="currentSlide(3)" alt="deals deals deals">
+				</div>
+
+				<div class="column">
+					<img class="controlSml cursor" src="Images/Thumb/img_4_sm.png" style="width:100%" onclick="currentSlide(4)" alt="greater deals">
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- tossed old gallery in the bin! -->
 		
-					<!-- contract CONTACT -->
+		
+					<!-- CONTACT |  NEEDS TO BE CLEANED UP!!!!!!!!!!!! -->
+					<!-- really want to toss this in the bin too -->		
 		<section id="contract">
 			<div class="container">
 				<div class="heading-padding"> <!-- SPAN IS FROM ORIGINAL DOC AND MAY BE MOVED TO CSS CODE = <span style="text-shadow: 5px 5px 5px red;"></span> -->
+					
 					<h1 class="heading-padding">ENTER INTO A CONTRACT BY ENTERING YOUR CONTACTS</h1>
 					<div class="reservation">
 						<h2><span>TIRED OF BEING BURDENED BY YOUR PESKY SOUL?</span>
-							<br />SIMPLY SIGN YOUR LIFE AWAY TODAY!<br />
+							<br>SIMPLY SIGN YOUR LIFE AWAY TODAY!<br>
 						</h2><br>
 						<p class="rsvp-text">
 							Please provide your contact information
 						</p>
 						<div class="form-rsvp">
+							<!-- empty "" form action is getting flagged by validator -->
 							<form action="" method="post">
 								<input class="rsvp" type="text" value="" placeholder="First Name">
 								<input class="rsvp" type="text" value="" placeholder="Last Name">
@@ -146,7 +142,9 @@
 		<!-- EDUCATIONAL VIDEO -->
 		<div class="heading-padding">
 			<h3 class="heading-padding"> LEARN MORE ON HOW TO SELL YOUR SOUL HERE! </h3>
+			<!-- unsure why this is section'ed instead if div'ed  |  its not great as heading is above-->
 				<section class="center-object">
+					<!-- frameborder is obsolete, use css instead next time -->
 					<iframe width="768" height="432" src="https://www.youtube.com/embed/dpYEALrKj0s" 
 					title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 					encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
@@ -158,6 +156,7 @@
 		<!-- FOOTER -->
 		<footer> DEVIL&nbsp; INC.&copy; </footer>
 		<!-- END FOOTER -->
+		
 		
 	</body>
 </html>

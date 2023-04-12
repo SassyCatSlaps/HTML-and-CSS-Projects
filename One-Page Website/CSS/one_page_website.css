@@ -1,25 +1,24 @@
+/* oh my, coming back to this is like coming back to the site a plane crash, oh dear | NOT DRY AT ALL */
+
 html { /* just put this part in for funsies */
     font-family: sans-serif;
-    font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
 body {
+    /* absolute tragedy that i put font styling into the body oh my! */
     font-size: 18px;
     font-family: palatino, serif;
-    margin: 0;
     line-height: normal;
     color: rgb(90, 11, 11);
     background-color: rgba(81, 102, 87, 0.712);
+    margin: 0;
 }
-/* check for code redundancy later */
-p {
-    font-weight: 900;
-    line-height: 20px;
-    padding-bottom: 10px;
-    text-align: center;
+
+* {
+    box-sizing: border-box;
 }
 
 /* '.' = class */
@@ -27,7 +26,7 @@ p {
     text-align: center;
 }
 
-#center-object {
+.center-object {
     display: flex;
     justify-content: center;
 }
@@ -76,6 +75,7 @@ h1::after {
 h2 {
     line-height: 50px;
     color: #E91C1C;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.726);
 }
 
 h3 {
@@ -96,9 +96,9 @@ h4 {
     text-shadow: 2px 1px 1px rgba(197, 82, 82, 0.658);
 }
 
-footer,
-nav {
+footer {
     display: block;
+    text-align: center;
 }
 
 section {
@@ -120,49 +120,172 @@ section {
     margin-left: auto;
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
 
-.clearfix::after,
-/* ':after' IS NOW '::after' with a "::" double colon */
-.container::after,
-.navbar::after {
-    clear: both;
-    display: table;
-    content: " ";
-}
-
-.wrap {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    /* ENSURES THAT THE IMAGES CANNOT RENDER OUTSIDE OF THEIR CONTAINER W/O FORCING ANY SCROLLBARS */
+/*==================================
+        BEGIN NEW NAVBAR 
+===================================*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    top: 0;
-    left: 0;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.menu-container {
-    max-height: 340px; /* HOW TO CENTER SOMETHING */
-    margin: 0% auto;
-    content: " ";
-    /* TOP: 0;
-    LEFT: 0; */
-    /* POSITION ABSOLUTE; Always going to be on top of every page*/
-    /* TO THE TOP EDGE OF THE SCREEN */
-    width: 100%;
+li a:hover {
+    background-color: #111;
+}
+/* END NAVBAR */
+
+
+
+/*===============================================================================================
+ STYLING FOR THE LIGHT BOX  |  WILL PROLLY NEED TO REDO HEAPS OF THE REPEATS/CHAOS ABOVE AS I GO 
+=================================================================================================*/
+.row > .column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* equal and aligned floating colummns */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* LIGHTBOX BackGround */
+.modal {
+    display: none;
     position: fixed;
-    z-index: 100;  /* BACKGROUND-COLOR: RGBA(255, 255, 255, 0.5); */
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
 }
 
-.navbar {
-    height: 105px;
-    max-height: 340px;
-    display: inline-block;
+/* LIGHTBOX CONTENT */
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
 }
+
+/* BUTTON TO EXIT LIGHTBOX POPUP */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, 
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* SLIDES HIDDEN BY DEFAULT */
+.vikSlides {
+    display: none;
+}
+
+/* FLIP BUTTONS TO GO FORWARD AND BACK */
+.prev, 
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* ENSURE NEXT BUTTON IS AFIXED ON RIGHT */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* MOUSE HOVER WILL ADD TRANSLUCENT BG */
+.prev:hover, 
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* NUMBER OVERLAY TEXT */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img {
+    margin-bottom: -4px;
+}
+
+/* CAPTION TEXT OVERLAY */
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.controlSml {
+    opacity: 0.6;
+}
+
+.active, 
+.controlSml:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 
 /*====================================================
     CONTACT STYLES
@@ -219,6 +342,10 @@ section {
     font-variant: small-caps;
     letter-spacing: .4pt;
     word-spacing: .3pt;
+}
+
+.rsvp-text {
+    text-align: center;
 }
 
 .reservation p {
