@@ -10,12 +10,12 @@
 ## Links
 
 <h1 align="center">Sample HTML and CSS websites:</h1>
-<p>
-	[The Art of Baten Kaitos](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/blob/main/Basic_HTML_and_CSS/Project/The%20Art%20of%20Baten%20Kaitos.html)
-	<br>
-	[Rave Cat Clubs](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
-	<br>
-</p>
+
+[The Art of Baten Kaitos](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/blob/main/Basic_HTML_and_CSS/Project/The%20Art%20of%20Baten%20Kaitos.html)
+<br>
+[Rave Cat Clubs](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
+<br>
+
 
 <!-- ## Screenshots | screen shots and links coming soon -->
 
@@ -23,7 +23,7 @@
 
 <p>
 - HTML<br>
-- CSS
+- CSS<br>
 - JavaScript
 <p><br>
 
