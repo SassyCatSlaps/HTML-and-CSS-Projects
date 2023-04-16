@@ -40,8 +40,8 @@ It is styled with CSS and contains a navbar, imgage containers, overlay, and a f
 <h2>Rave Cat Clubs</h2>
 <br>
 <p>This page is an example home page for an international Night-club. It is styled
-using Bootstrap4. It's many components include a navbar, jumbotron, pills, cards,
-form, images, and dropdowns.
+using Bootstrap4. It's many components include a navbar, jumbotron, buttons, cards,
+form, images, dropdowns, and pop-up form.
 <p>
 <br>
 <br>
