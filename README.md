@@ -11,9 +11,9 @@
 
 <h1 align="center">Sample HTML and CSS websites:</h1>
 <p>
-	<a href="">The Art of Baten Kaitos</a>
+	[The Art of Baten Kaitos](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/blob/main/Basic_HTML_and_CSS/Project/The%20Art%20of%20Baten%20Kaitos.html)
 	<br>
-	<a href="">Rave Cat Clubs</a> 
+	[Rave Cat Clubs](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
 	<br>
 </p>
 
@@ -24,6 +24,7 @@
 <p>
 - HTML<br>
 - CSS
+- JavaScript
 <p><br>
 
 ## Description
