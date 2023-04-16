@@ -60,6 +60,9 @@ form, images, dropdowns, and pop-up form.
 
 **Viktoriya Furlow**
 
+<br>
+<br>
+  
 ## Support
 
 <h4>Contributions, issues, and requests are very welcome!
