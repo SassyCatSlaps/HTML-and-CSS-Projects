@@ -13,10 +13,15 @@
 <br>
 
 ## Links
+
 <br>
+
 [The Art of Baten Kaitos](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/blob/main/Basic_HTML_and_CSS/Project/The%20Art%20of%20Baten%20Kaitos.html)
+
 <br>
+
 [Rave Cat Clubs](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
+
 <br>
 <br>
 
