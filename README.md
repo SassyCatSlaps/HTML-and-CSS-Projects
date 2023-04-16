@@ -1,11 +1,10 @@
 #README.md
-
 ##HTML-and-CSS-Projects
 
 <h2>PURPOSE:</h2>
 
 <p>This is where I will show my HTML and CSS projects/assignments done for my bootcamp at The Tech Academy.</p>
-
+<br>
 
 ## Links
 
@@ -15,7 +14,7 @@
 <br>
 [Rave Cat Clubs](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
 <br>
-
+<br>
 
 <!-- ## Screenshots | screen shots and links coming soon -->
 
@@ -26,6 +25,7 @@
 - CSS<br>
 - JavaScript
 <p><br>
+<br>
 
 ## Description
 
