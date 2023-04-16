@@ -5,11 +5,14 @@
 
 <p>This is where I will show my HTML and CSS projects/assignments done for my bootcamp at The Tech Academy.</p>
 <br>
+<br>
+<br>
+<h1 align="center">Sample HTML and CSS websites:</h1>
+<br>
+<br>
 
 ## Links
-
-<h1 align="center">Sample HTML and CSS websites:</h1>
-
+<br>
 [The Art of Baten Kaitos](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/blob/main/Basic_HTML_and_CSS/Project/The%20Art%20of%20Baten%20Kaitos.html)
 <br>
 [Rave Cat Clubs](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
@@ -24,7 +27,8 @@
 - HTML<br>
 - CSS<br>
 - JavaScript
-<p><br>
+<p>
+<br>
 <br>
 
 ## Description
