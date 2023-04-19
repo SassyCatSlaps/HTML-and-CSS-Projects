@@ -1,21 +1,29 @@
 #README.md
-
+<br>
 ##HTML-and-CSS-Projects
 
 <h2>PURPOSE:</h2>
 
 <p>This is where I will show my HTML and CSS projects/assignments done for my bootcamp at The Tech Academy.</p>
-
+<br>
+<br>
+<br>
+<h1 align="center">Sample HTML and CSS websites:</h1>
+<br>
+<br>
 
 ## Links
 
-<h1 align="center">Sample HTML and CSS websites:</h1>
-<p>
-	<a href="">The Art of Baten Kaitos</a>
-	<br>
-	<a href="">Rave Cat Clubs</a> 
-	<br>
-</p>
+<br>
+
+[The Art of Baten Kaitos](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/blob/main/Basic_HTML_and_CSS/Project/The%20Art%20of%20Baten%20Kaitos.html)
+
+<br>
+
+[Rave Cat Clubs](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
+
+<br>
+<br>
 
 <!-- ## Screenshots | screen shots and links coming soon -->
 
@@ -23,8 +31,11 @@
 
 <p>
 - HTML<br>
-- CSS
-<p><br>
+- CSS<br>
+- JavaScript
+<p>
+<br>
+<br>
 
 ## Description
 
@@ -39,8 +50,8 @@ It is styled with CSS and contains a navbar, imgage containers, overlay, and a f
 <h2>Rave Cat Clubs</h2>
 <br>
 <p>This page is an example home page for an international Night-club. It is styled
-using Bootstrap4. It's many components include a navbar, jumbotron, pills, cards,
-form, images, and dropdowns.
+using Bootstrap4. It's many components include a navbar, jumbotron, buttons, cards,
+form, images, dropdowns, and pop-up form.
 <p>
 <br>
 <br>
@@ -49,6 +60,9 @@ form, images, and dropdowns.
 
 **Viktoriya Furlow**
 
+<br>
+<br>
+  
 ## Support
 
 <h4>Contributions, issues, and requests are very welcome!
