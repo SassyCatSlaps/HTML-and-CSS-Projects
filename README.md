@@ -1,15 +1,11 @@
 #README.md
-<br>
-##HTML-and-CSS-Projects
 
 <h2>PURPOSE:</h2>
 
 <p>This is where I will show my HTML and CSS projects/assignments done for my bootcamp at The Tech Academy.</p>
 <br>
 <br>
-<br>
 <h1 align="center">Sample HTML, CSS, and JavaScript websites:</h1>
-<br>
 <br>
 
 ## Links
@@ -25,7 +21,6 @@
 <br>
 <br>
 
-<!-- ## Screenshots | screen shots and links coming soon -->
 
 ## Built With
 
@@ -47,10 +42,10 @@
 It is styled with CSS and contains a navbar, imgage containers, overlay, and a form.
 </p>
 <br>
-<br>
 
 ![Petition Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTE2N2RjYWEwMTgyNDk0ODM3NmZkYzUzMzFkMTgxZDY2MDRhZTY4OCZjdD1n/uSEPBj2fSGRFSKs5VH/giphy.gif)
 
+<h1></h1>
 <br>
 <br>
 <br>
@@ -66,6 +61,7 @@ form, images, dropdowns, and pop-up form.
 
 ![RCC Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDVlMjkxNzkyMDIwZjY1YzU3MjEyYjJiZWMxYzQ1N2VlYzkyNTZmNSZjdD1n/1EKY2ZhqrLZP25rT5T/giphy-downsized-large.gif)
 
+<h1></h1>
 <br>
 <br>  
 <br> 
