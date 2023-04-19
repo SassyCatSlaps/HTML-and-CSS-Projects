@@ -38,6 +38,8 @@
 <br>
 
 ## Description
+<br>
+<br>
 
 <h2>The Art of Baten Kaitos Site</h2>
 <br>
