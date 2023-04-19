@@ -45,7 +45,7 @@
 It is styled with CSS and contains a navbar, imgage containers, overlay, and a form.
 </p>
 <br>
-![](RCC.gif)
+![RCC Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDVlMjkxNzkyMDIwZjY1YzU3MjEyYjJiZWMxYzQ1N2VlYzkyNTZmNSZjdD1n/1EKY2ZhqrLZP25rT5T/giphy-downsized-large.gif)
 <br>
 <br>
 <br>
