@@ -47,7 +47,6 @@ It is styled with CSS and contains a navbar, imgage containers, overlay, and a f
 <h1></h1>
 <br>
 <br>
-<br>
 
 <h2>Rave Cat Clubs</h2>
 <br>
