@@ -45,6 +45,9 @@
 It is styled with CSS and contains a navbar, imgage containers, overlay, and a form.
 </p>
 <br>
+![](RCC.gif)
+<br>
+<br>
 <br>
 
 <h2>Rave Cat Clubs</h2>
