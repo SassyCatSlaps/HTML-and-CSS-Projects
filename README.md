@@ -19,7 +19,6 @@
 [Rave Cat Clubs](https://github.com/SassyCatSlaps/HTML-and-CSS-Projects/tree/main/bootstrap4_project)
 
 <br>
-<br>
 
 
 ## Built With
