@@ -45,8 +45,9 @@
 It is styled with CSS and contains a navbar, imgage containers, overlay, and a form.
 </p>
 <br>
+<br>
 
-![RCC Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDVlMjkxNzkyMDIwZjY1YzU3MjEyYjJiZWMxYzQ1N2VlYzkyNTZmNSZjdD1n/1EKY2ZhqrLZP25rT5T/giphy-downsized-large.gif)
+![Petition Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTE2N2RjYWEwMTgyNDk0ODM3NmZkYzUzMzFkMTgxZDY2MDRhZTY4OCZjdD1n/uSEPBj2fSGRFSKs5VH/giphy.gif)
 
 <br>
 <br>
@@ -61,6 +62,13 @@ form, images, dropdowns, and pop-up form.
 <br>
 <br>
 
+![RCC Preview](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDVlMjkxNzkyMDIwZjY1YzU3MjEyYjJiZWMxYzQ1N2VlYzkyNTZmNSZjdD1n/1EKY2ZhqrLZP25rT5T/giphy-downsized-large.gif)
+
+<br>
+<br>  
+<br> 
+  
+  
 ## Author
 
 **Viktoriya Furlow**
