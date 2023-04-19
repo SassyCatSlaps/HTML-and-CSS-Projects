@@ -8,7 +8,7 @@
 <br>
 <br>
 <br>
-<h1 align="center">Sample HTML and CSS websites:</h1>
+<h1 align="center">Sample HTML, CSS, and JavaScript websites:</h1>
 <br>
 <br>
 
@@ -43,7 +43,7 @@
 
 <h2>The Art of Baten Kaitos Site</h2>
 <br>
-<p>This page is an example home page for an archive gallery and special petition.
+<p>This page is an example home page for a simple archive gallery and special petition.
 It is styled with CSS and contains a navbar, imgage containers, overlay, and a form.
 </p>
 <br>
@@ -57,7 +57,7 @@ It is styled with CSS and contains a navbar, imgage containers, overlay, and a f
 
 <h2>Rave Cat Clubs</h2>
 <br>
-<p>This page is an example home page for an international Night-club. It is styled
+<p>This page is an example home page for an international night-club. It is styled
 using Bootstrap4. It's many components include a navbar, jumbotron, buttons, cards,
 form, images, dropdowns, and pop-up form.
 <p>
